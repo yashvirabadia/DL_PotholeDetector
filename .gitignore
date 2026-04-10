@@ -1,0 +1,79 @@
+# =========================
+# 🔐 Python
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+env/
+.venv/
+ENV/
+
+# =========================
+# 📦 Packages / Build
+# =========================
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# =========================
+# 📓 Jupyter / Kaggle
+# =========================
+.ipynb_checkpoints/
+*.ipynb
+
+# =========================
+# 🧠 ML / DL Artifacts
+# =========================
+# Model weights
+*.pt
+*.pth
+*.onnx
+
+# Training outputs
+outputs/
+runs/
+pothole_run/
+
+# Logs
+*.log
+prediction_log.csv
+
+# =========================
+# 📁 Dataset (IMPORTANT)
+# =========================
+BharatPotHole/
+dataset/
+data/
+*.zip
+
+# =========================
+# 🖼️ Temporary / Uploaded files
+# =========================
+*.jpg
+*.jpeg
+*.png
+*.mp4
+temp/
+tmp/
+
+# =========================
+# ⚙️ OS / Editor
+# =========================
+.DS_Store
+Thumbs.db
+
+# VS Code
+.vscode/
+
+# PyCharm
+.idea/
+
+# =========================
+# 🔑 Secrets / Config
+# =========================
+.env
+.env.*
