@@ -29,7 +29,7 @@ dist/
 # 🧠 ML / DL Artifacts
 # =========================
 # Model weights
-*.pt
+
 *.pth
 *.onnx
 
